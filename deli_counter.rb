@@ -14,7 +14,7 @@ end
 def line(array)
     if array.count === 0
     puts "The line is currently empty."
-  end
+  else
   new_array = []
   counter = 0
   while counter < array.count
