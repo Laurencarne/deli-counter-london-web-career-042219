@@ -21,5 +21,5 @@ def line(array)
     new_array.push("#{counter+1}. #{array[counter]}")
     counter += 1
   end
-    puts "The line is currently: #{new_array.join(", ")}"
+    puts "The line is currently: #{new_array.join(" ")}"
   end
