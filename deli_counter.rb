@@ -19,7 +19,7 @@ def line(array)
   counter = 0
   while counter < array.count
     new_array.push("#{counter+1}. #{array[counter]}")
-    counter += 1
     puts "The line is currently: #{new_array.join(", ")}"
+    counter += 1
   end
 end
