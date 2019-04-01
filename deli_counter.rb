@@ -12,7 +12,7 @@ def now_serving(array)
 end
 
 def line(array)
-    if array.length === 0
+    if array.count === 0
     puts "The line is currently empty."
   new_array = []
   counter = 0
